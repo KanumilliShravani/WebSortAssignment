@@ -1,0 +1,94 @@
+
+.iconsCard{
+   display: flex;
+    align-items: center;
+    margin: 15px;
+    padding: 10PX;
+}
+
+.icons{
+    font-size: 25px;
+    margin: 10px;
+}
+.faceIcon{
+    background-color: rgb(61, 131, 251);
+    color: aliceblue;
+    font-size: 25px;
+}
+.instIcon{
+  background-image: radial-gradient(#FA8F21,#D82D7E);
+  background-size: cover;
+  font-size: 25px;
+}
+.addressText{
+    color: #FFF9F9;
+    font-size: 16px;
+    font: 400;
+    line-height: 100%;
+}
+
+@media(max-width:786px){
+.lastCard{
+    background-color:#DAE5FF;
+}
+.copyText{
+    color: #000;
+    font-size: 10px;
+    font-family:  "Jacques Francois";
+    font-weight: 400;
+    text-align: center;
+}
+.bottomCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750574735/eb95a5f47924a62ded304800f88f4782092e1fcb_3_zrocqb.png");
+    background-size: cover;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconsContainer{
+    display: none;
+}
+.logoImg{
+       width: 120px;
+      height: 80px;
+      margin: 10px;
+}
+}
+
+@media(min-width:785px){
+    .lastCard{
+    background-color:#DAE5FF;
+    height: 30px;
+}
+.copyText{
+    color: #000;
+    font-size: 14px;
+    font-family:  "Jacques Francois";
+    font-weight: 400;
+    text-align: center;
+}
+.bottomCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750403902/eb95a5f47924a62ded304800f88f4782092e1fcb_dstraq.png");
+    background-size: cover;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.iconsContainer{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    padding: 10PX;
+}
+
+.logoImg{
+    width: 120px;
+    left: 80px;
+    height: 50px;
+    top: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+}

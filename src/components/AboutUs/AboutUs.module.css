@@ -1,0 +1,565 @@
+
+.homeContainer{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.colorlessBtn{
+    color: #FFFFFF;
+    background-color:transparent;
+    border: 2px solid #FFFFFF;
+    padding: 4px 12px 12px 4px;
+    text-align: center;
+    margin: 15px;
+}
+
+.ourProjectTExt{
+    color: #FFFFFF;
+    font: 700;
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 100%;
+    font-size: 30px;
+}
+.ourProjectContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750484889/ce77f559503ea3459f3cd2db2d83133b4ec254c2_vfeml3.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectCardsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.projectCardBtn{
+    background-color: #FFFFFF;
+    color: #000;
+    padding: 6px 4px 4px 6px;
+    border-radius: 20px;
+    font-size: 12px;
+    border:1px solid #FFFFFF;
+    font-weight:800;
+    margin: 10px;
+}
+
+.projectCardBtnPink{
+    background-color: #FF80DB;
+    color: #FFFFFF;
+     padding: 6px 4px 4px 6px;
+    border-radius: 20px;
+    font-size: 12px;
+    border:1px solid #FF80DB;
+    font-weight:800;
+    margin: 10px;
+}
+
+.futureContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750486208/36bc06672deaa570f99dd89a47ef15058ce35079_w3zys8.jpg");
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonExplore{
+    background-color:#00000040 ;
+    color: #FFFFFF;
+     padding: 4px 12px 12px 4px;
+    text-align: center;
+    margin: 15px;
+    border: none;
+}
+.cardImages{
+    width: 230px;
+    height: 210px;
+    margin: 10px;
+}
+.linearGradinetBox{
+    background-image: linear-gradient(to right,#F159CB,#00D30B,#0D0E4B,#E03639,#4CB6D4);
+    background-size: cover;
+    height: 26px;
+    opacity: 0.8;
+}
+
+
+.inputEle{
+    background: none;
+    border: 2px solid #FFFFFF;
+    width: 200px;
+    text-align: center;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.labelText{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 8px;
+}
+.inputCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inputEleBox{
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 18px;
+    width: 200px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.submitBtn{
+    background-color: #2575DC;
+    color: #FFFFFF;
+    margin: 10px;
+    border: 2px solid #2575DC;
+    border-radius: 6px;
+    padding: 4px 8px 8px 4px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0%;
+}
+.formCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.exploreCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750491795/541cea16f2e805f192789d364572c1899f142a4f_wg9dpa.png");
+    background-size: cover;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.purpleBtn{
+    border-radius: 6px;
+    padding: 4px 8px 8px 4px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0%;
+    background-color: #9037C3;
+    color: #FFFFFF;
+    border: 1px solid #2F36BF;
+    margin: 15px;
+}
+
+.carouselCard{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.carouselImg{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    display: block;
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: #2A327CBF;
+    z-index: 1;
+}
+.paragraphCarosel{
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media(max-width:786px){
+.container{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750340606/4a4a21792a7a0e2841e83d72d9e78c9bd823a88b_oybhbs.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.homeFormContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750491797/8e9c577becba5ca5a770ef5217d6d39faa81209e_fapg1r.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeformCard{
+    background-color:#D9D4EF3D ;
+    border: 1px solid #D9D4EF3D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 18px;
+    margin: 10px;
+}
+.heading{
+    color: #FFFFFF;
+    padding: 10px;
+    font-size:26px ;
+    font-weight: 400;
+    line-height: 100%;
+    font-family: "Roboto";
+}
+.paragraph{
+     color: #FFFFFF;
+    font-size:16px ;
+    padding: 10px;
+    font-weight: 200;
+    line-height: 100%;
+}
+.whyWeDesc{
+    display: none;
+}
+.whyWeDescSm{
+    color: #FFFFFF;
+    font-size:16px ;
+    padding: 10px;
+    font-weight: 200;
+    line-height: 100%; 
+    order: 3;
+}
+.textContainer{
+    margin: 10px;
+}
+.aboutUsContainer{
+    background-color: #99A1D752;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.aboutUsCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.aboutUsText{
+    font-size: 26px;
+    color: #FFFFFF;
+      margin: 10px;
+    font: 400;
+    font-family: "Roboto";
+}
+.textCard{
+   margin: 10px;
+}
+.projectCardImg{
+    width: 130px;
+    height: 280px;
+    border: 4px solid  #FFFFFF;
+    border-radius: 20px;
+}
+.projectCardImgPink{
+      width: 180px;
+    height: 320px;
+    border: 6px solid  #FF80DB;
+    border-radius: 20px;
+}
+.sliderContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageWrapper{
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+.seeOurWorkCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750486487/24b5138aefa9aeed95b3d32340dca7f139dfdbb8_s6ozdj.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.seeOurWorkContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+    order: 2;
+}
+.seeOurText{
+   display: none;
+}
+.whyWeText{
+     color: #FFFFFF;
+    font-weight: 600;
+    font-size: 23px;
+    margin: 10px;
+    order: 1;
+}
+.seeOurTextSm{
+     color: #FFFFFF;
+    font-weight: 600;
+    font-size: 23px;
+    margin: 10px;
+}
+.seeOurImg{
+    width: 310px;
+    height: 210px;
+    margin: 10px;
+    order: 1;
+}
+.whyWeImg{
+     width: 310px;
+    height: 210px;
+    margin: 10px;
+    order: 2;
+}
+.whyWeContainer{
+    background-color: #150C11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.acheievmentsCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750490462/522bab6ab7703395227af0d99e3a57c50a4ed3d8_bebomh.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.imageCardsContainer{
+   display: none
+}
+.achiveText{
+      color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px;
+}
+.sliderImageCardsContainer{
+      display: flex;
+      width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+}
+
+
+@media(min-width:785px){
+    .container{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750340606/4a4a21792a7a0e2841e83d72d9e78c9bd823a88b_oybhbs.png");
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.whyWeText{
+     color: #FFFFFF;
+    font-weight: 600;
+    font-size: 23px;
+    margin: 10px;
+}
+.whyWeDescSm{
+    display: none;
+}
+.whyWeImg{
+     width: 310px;
+    height: 210px;
+    margin: 10px;
+}
+.whyWeDesc{
+         color: #FFFFFF;
+    font-size:16px ;
+    margin: 10px;
+    font-weight: 300;
+    letter-spacing: 0%;
+    line-height: 100%;
+    font-family: "Montserrat";
+}
+.homeFormContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750491797/8e9c577becba5ca5a770ef5217d6d39faa81209e_fapg1r.png");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeformCard{
+    background-color:#D9D4EF3D ;
+    border: 1px solid #D9D4EF3D;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    border-radius: 18px;
+    margin: 20px;
+}
+.heading{
+    color: #FFFFFF;
+    margin: 10px;
+    font-size:40px ;
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 100%;
+    font-family: "Montserrat";
+}
+.paragraph{
+     color: #FFFFFF;
+    font-size:16px ;
+    margin: 10px;
+    font-weight: 300;
+    letter-spacing: 0%;
+    line-height: 100%;
+    font-family: "Montserrat";
+}
+.textContainer{
+    width: 500px;
+    margin: 40px;
+}
+.aboutUsContainer{
+    background-color: #99A1D752;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.aboutUsCard{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    padding-right: 40px;
+}
+.aboutUsText{
+    font-size: 34px;
+    color: #FFFFFF;
+    font: 400;
+    font-family: "Montesarrt";
+}
+.textCard{
+    padding-left: 60px;
+}
+.projectCardImg{
+    width: 280px;
+    height: 330px;
+    border: 4px solid  #FFFFFF;
+    border-radius: 20px;
+}
+.projectCardImgPink{
+      width: 350px;
+    height: 410px;
+    border: 8px solid  #FF80DB;
+    border-radius: 20px;
+}
+.sliderContainer{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+}
+.imageWrapper{
+    position: relative;
+    width: 350px;
+    overflow: hidden;
+}
+.seeOurWorkCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750486487/24b5138aefa9aeed95b3d32340dca7f139dfdbb8_s6ozdj.png");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+      left: 200px;
+}
+.seeOurWorkContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+    width: 500px;
+  
+}
+.seeOurTextSm{
+    display: none;
+}
+.seeOurText{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px;
+}
+.achiveText{
+      color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 10px;
+}
+.seeOurImg{
+    width: 310px;
+    height: 240px;
+    margin: 20px;
+}
+.whyWeContainer{
+    background-color: #150C11;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.acheievmentsCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750490462/522bab6ab7703395227af0d99e3a57c50a4ed3d8_bebomh.png");
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.imageCardsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.sliderImageCardsContainer{
+    display: none;
+}
+}

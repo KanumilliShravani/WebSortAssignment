@@ -1,0 +1,222 @@
+.contactContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.textTitle{
+    color: #000;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.textBox{
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.bottomCard{
+    background-color: #0B0014;
+    min-height: 600px;
+    padding: 20px;
+}
+
+
+.labelEle{
+    color: #D1F5FF;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.inpputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px
+}
+
+
+
+.addressText{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 0%;
+    line-height: 100%;
+    text-align: center;
+}
+
+
+.addText{
+    color: #FFF9F9;
+    font-weight: 400;
+    font-size: 20px;
+}
+.addressContainer{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:786px){
+.textCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.topCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750419031/64a2ff3a8e86707f19db8395da7d0442e4ccd602_fdygyz.png");
+    background-size: cover;
+    min-height: 200px;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+}
+.formCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750419871/5f6ebe1e2f6c2408cff9a149d51747dca0db068c_1_bluafq.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.formHeading{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+}
+.formText{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+}
+.formEleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.inputEle{
+    border: 2px solid #E83E40;
+    border-bottom: none;
+    background: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+}
+.msgEle{
+      background: none;
+      border: 2px solid #E83E40;
+      width: 200px;
+      padding: 4px 12px 12px 4px;
+}
+.submitBtn{
+    background-color:#DD5151 ;
+    color:#FFFFFF ;
+    border: 2px solid #DD5151;
+    border-radius: 16px;
+    margin: 20px;
+   padding-left: 12px;
+   padding-right: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.addressImg{
+    margin: 20px;
+    width: 300px;
+    height: 260px;
+}
+.addressBox{
+    display: none;
+}
+}
+
+@media (min-width:785px){
+.textCard{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.topCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750419031/64a2ff3a8e86707f19db8395da7d0442e4ccd602_fdygyz.png");
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+}
+.formCard{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750419871/5f6ebe1e2f6c2408cff9a149d51747dca0db068c_1_bluafq.png");
+    background-size: cover;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+ 
+.formHeading{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 34px;
+}  
+.formText{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+} 
+.formEleContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.inputEle{
+    border: 2px solid #E83E40;
+    border-bottom: none;
+    background: none;
+    border-left: none;
+    border-right: none;
+    width: 140px;
+}
+.msgEle{
+      background: none;
+      border: 2px solid #E83E40;
+      width: 140px;
+      padding: 4px 12px 12px 4px;
+}
+.submitBtn{
+    background-color:#DD5151 ;
+    color:#FFFFFF ;
+    border: 2px solid #DD5151;
+    border-radius: 12px;
+    margin: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.addressImg{
+    margin: 40px;
+    width: 440px;
+    height: 380px;
+}
+.addressBox{
+    border: 1px solid #FFFFFF;
+    width: 210px;
+    display: flex;
+    text-align: center;
+    height: 150px;
+}
+}

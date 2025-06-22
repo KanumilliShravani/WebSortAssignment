@@ -1,0 +1,270 @@
+.carrersContainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.formText{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+
+.submitBtn{
+    background-color:#DD5151 ;
+    color:#FFFFFF ;
+    border: 2px solid #DD5151;
+    border-radius: 12px;
+    margin: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media(max-width:786px){
+.carrerImg{
+    width: 240px;
+    height:200px;  
+    border-radius: 10px;
+    margin: 10px;
+    order: 2;
+}
+.formHeadText{
+     font-size:26px;
+    font-weight:400;
+    font-family:"Bree Serif";
+    color: #FFFFFF;
+    margin: 10px;
+}
+.largeText{
+    font-size:26px;
+    font-weight:400;
+    font-family:"Bree Serif";
+    order: 1;
+    color: #FFFFFF;
+    margin: 10px;
+}
+.smallText{
+    display: none;
+}
+.smallTextSm{
+     font:400;
+    font-family:"Roboto";
+    font-size:16px;
+    order: 3;
+    color: #FFFFFF;
+    line-height: 100%;
+}
+.imageContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750351198/4f70bc7d6c6f6f319f87eaffc8b803b507ffe38d_em71lz.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.internImagesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.internSub{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 10px;
+   min-width: 500px;
+}
+.internImg{
+    width: 150px;
+    height: 120px;
+    margin-top: 8px;
+}
+.internContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750401281/f4855cd091e8028b5f2ef92bb7b734b4c1e061f5_ffes1h.png");
+    background-size: cover;
+}
+.internText{
+    color: #FFFFFF;
+    font: 400;
+    font-size: 18px;
+}
+.textConatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    margin: 10px;
+    color:#FFFFFF;
+}
+.internHeading{
+    color: #FFFFFF;
+    font: 600;
+    font-size: 28px;
+    font-family: "Roboto";
+    line-height: 100%;
+    text-align: center;
+}
+.formEleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.labelEle{
+    color: #D1F5FF;
+    font-weight: 300;
+    font-size: 23px;
+}
+.inputEle{
+    border: 2px solid #E83E40;
+    border-bottom: none;
+    background: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+}
+.inpputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.msgEle{
+      background: none;
+      border: 2px solid #E83E40;
+      width: 200px;
+      padding: 4px 12px 12px 4px;
+}
+.formContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750403077/5f6ebe1e2f6c2408cff9a149d51747dca0db068c_wvuyqb.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+}
+
+
+@media(min-width:785px){
+.carrerImg{
+    top:200px;
+    width: 330px;
+    height:280px;
+    border-radius: 10px;
+    margin: 40px;
+}
+.largeText{
+    font-size:35px;
+    font:400;
+    font-family:"Bree Serif";
+}
+.smallText{
+    font:400;
+    font-family:"Roboto";
+    font-size:22px;
+    line-height: 100%;
+    letter-spacing:0%;
+}
+.smallTextSm{
+    display: none;
+}
+.imageContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750351198/4f70bc7d6c6f6f319f87eaffc8b803b507ffe38d_em71lz.png");
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.internImagesContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.internHeading{
+    color: #FFFFFF;
+    font: 700;
+    font-size: 35px;
+    font-family: "Roboto";
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.textConatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    width: 550px;
+    margin: 40px;
+    color:#FFFFFF;
+    top:200px;
+}
+
+.internSub{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 15px;
+}
+.internImg{
+    width: 230px;
+    height: 180px;
+    margin-top: 14px;
+}
+.internText{
+    color: #FFFFFF;
+    font: 400;
+    font-size: 25px;
+}
+.internContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750401281/f4855cd091e8028b5f2ef92bb7b734b4c1e061f5_ffes1h.png");
+    background-size: cover;
+    height:360px;
+}
+.formEleContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.labelEle{
+    color: #D1F5FF;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.inputEle{
+    border: 2px solid #E83E40;
+    border-bottom: none;
+    background: none;
+    border-left: none;
+    border-right: none;
+    width: 140px;
+}
+.inpputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 150px;
+}
+.msgEle{
+      background: none;
+      border: 2px solid #E83E40;
+      width: 140px;
+      padding: 4px 12px 12px 4px;
+}
+.formContainer{
+    background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1750403077/5f6ebe1e2f6c2408cff9a149d51747dca0db068c_wvuyqb.png");
+    background-size: cover;
+    min-height: 350px;
+    padding: 10px;
+}
+}
